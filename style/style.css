@@ -1,0 +1,252 @@
+
+/********* Reset Design  *********/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**** General setting ****/
+hr{
+	width: 50%;
+	border: 1px solid #EF0707;
+}
+h1{
+	font-size: 2.5em;
+	margin: 20px;
+}
+
+.question{
+	font-size: 1.5em;
+	color: #F21313;
+}
+.answer{
+	font-size: 1.5em;
+	color: #1264E8;
+}
+
+/********* Content  *********/
+#about{
+	display: block;
+	text-align: center;
+	font-size: 0.8em;
+	color: #EF0707;
+	font-family: Arial;
+}
+header{
+	font-family: Arial;
+	width: 100%;
+	height: 10%;
+	background-color: #FFF;
+	
+	
+}
+header ul{
+	margin-left: 1.5em;
+}
+header li{
+	display: inline-block;
+	margin: 0.8em 2em 0 0;
+	font-size: 1.3em;
+	
+}
+header a{
+	text-decoration: none;
+	color:black;
+}
+header a:hover{
+	font-family: impact;
+	color: #9c0fe2;
+}
+
+div#mainContent, div#aside {
+	margin:10px;
+	margin-top: 25px;
+	background-color: #FFF;
+
+}
+
+div#mainContent{
+	width: 70%;
+	min-height: 550px;
+}
+div#aside {
+	float: right;
+	width: 25%;
+	
+}
+#mainContent label, #mainContent p ,#aside input, #aside label{
+	font-family: Arial;
+	display: block;
+	margin: 0px 0px 10px 35px;
+	font-size: 1em;
+	line-height: 1.3em;
+}
+#mainContent p{
+	margin: 0px 0px 10px 35px;
+
+}
+
+#mainContent input, select{
+	margin: 0px 0px 25px 40px;
+	
+}
+#mainContent p:nth-child(2n+1){
+	margin: 0 0 0 40px;
+	background-color:#F7F7F7;
+	width: 80%;
+	height: 10%;
+	margin: 0px 0px 10px 35px;
+}
+#mainContent button{
+	
+		
+}
+#editAll{
+	text-align: left;
+	margin: 0px 0px 10px 35px;
+
+}
+#mainContent button[type="submit"]{
+	margin: 0 0 0 5em;
+}
+#mainContent input[type="text"]{
+	width: 40%;
+}
+#mainContent input[type="submit"]{
+	cursor: pointer;
+	width: 5em;
+	height: 2.5em;
+	background-color: #FFBA04;
+	border: none;
+	border-radius: 5px;
+}
+
+
+/********* Login  *********/
+
+body#loginBody{
+	background-color: #DDDBDB;
+}
+#loginDiv, #signupDiv{
+	background-color: #FFF;
+	border-radius: 5px;
+	text-align: center;
+	margin: 0 auto;
+	
+
+}
+#loginDiv{
+	margin-top: 12%;
+	width:	35%;
+	height: 50%;
+}
+#loginDiv input{
+	font-size: 1.2em;
+	width: 80%;
+	height: 18%;
+	
+}
+
+ #loginDiv input[type="submit"]{
+	font-size: 1.3em;
+	background-color: #FFBA04;
+	cursor: pointer;
+	width: 80%;
+	height: 15%;
+	border: none;
+	border-radius: 5px;
+	
+}
+
+#errorMessage{
+	color : red;
+}
+.error{
+	font-size: 2em;
+	text-align: center;
+}
+/******************Signup****************/
+#signupDiv{
+	width: 80%;
+	height: 70%;
+	font-family: Arial;
+}
+#signupDiv input{
+	font-size: 1.2em;
+	width: 50%;
+	height: 12%;
+	
+}
+
+ #signupDiv input[type="submit"]{
+	font-size: 1.3em;
+	background-color: #FFBA04;
+	cursor: pointer;
+	border: none;
+	
+}
+
+.errorForm{
+	box-shadow: 0px 0px 3px red;
+}
+
+/************** Table ***************/
+table{
+	text-align: center;
+	margin: 30px;
+	width: 90%;	
+	border: 3px solid #e8e8e8;
+}
+td{
+	padding-top: 5px;
+	height: 35px;
+	width : 50px;
+}
+td:nth-child(4){
+	width: 120px;
+	}
+td:nth-child(5),td:nth-child(6){
+	width: 20px;
+	}
+tr:first-child{
+	border-bottom: 3px solid #e8e8e8;
+}
