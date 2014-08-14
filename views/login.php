@@ -3,6 +3,7 @@
 <title> Surcay </title>
 <link rel="stylesheet" type="text/css" href="../style/style.css">
 </head>
+<?php include("../controllers/Clogin.php") ?>
 <body id="loginBody">
 
 	<div id="loginDiv">
