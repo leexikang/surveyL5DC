@@ -7,7 +7,7 @@
 	isset();
 
 	isset();	
-	include("dbConfig.php");
+	include("dbtConfig.php");
 	include("session.php");
 	$userId = $_SESSION['userId'];
 
