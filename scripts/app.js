@@ -35,7 +35,7 @@ function checkUsername(){
 			clearErrorText();
 		}
 		signupStatus();
-		url = "checkUsername.php?username="+escape(username);
+		url = "../checkUsername.php?username="+escape(username);
 		userRequest.onreadystatechange = showUsernameStatus;
 		userRequest.open("GET", url, true);
 		userRequest.send(null);
