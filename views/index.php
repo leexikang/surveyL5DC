@@ -6,7 +6,7 @@
 	<body id="loginBody">
 		<header>
 			<ul>
-				<li> <?php echo $_SESSION['username'];?></li>
+				 <li> <?php //	 echo $_SESSION['username'];?></li>
 				<li><a href="report.php"> Report</a></li>
 				<li><a href="showAnswer.php?list=phone">Answers</a></li>
 				<li><a href="content.php?list=car&questin_list=OK"> Questions</a></li>
@@ -15,6 +15,7 @@
 			</ul>
 		</header>
 		<div id="aside">
+		feawfa
 		</div>
 		<div id="mainContent">
 		</div>

@@ -6,7 +6,6 @@
 	if(isset($_SESSION['login'])){
 		header("location:list.php");
 	}*/
-
 	if(isset($_POST['login'])){
 		$username = $_POST['username'];
 		$password = $_POST['password'];
